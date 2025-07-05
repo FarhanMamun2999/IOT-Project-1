@@ -1,0 +1,28 @@
+file 679324 1751728380                                          
+version 2
+run General-0-20231219-06:23:29-20776
+attr configname General
+attr datetime 20231219-06:23:29
+attr datetimef 20231219-062329
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network IOTPART01
+attr processid 20776
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network IOTPART01
+config record-eventlog true
+config .scalar-recording true
+config .vector-recording true
+
+vector 0 IOTPART01 totalEnergyUsed:vector ETV
+attr recordingmode vector
+attr source energyUsed
+0	644 678680 1 47122 12.744067511521 32992.257416357286 15708 8107.7282409173 9999.4454687411 142266653.42007 1293154680195.1

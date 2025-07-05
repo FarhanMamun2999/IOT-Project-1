@@ -1,0 +1,59 @@
+SB ov 1536 ev 2 rid General-0-20250705-17:13:50-27332
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t iotpart01.simulations.IOTPART01 n IOTPART01 cm 1
+MDC id 1 d bgb=722,451
+MC id 2 c Sensor t iotpart01.Sensor pid 1 n sensor[0]
+GC m 2 g 1 n sensorGate o 1
+MDC id 2 d i=device/accesspoint
+MC id 3 c Sensor t iotpart01.Sensor pid 1 n sensor[1]
+GC m 3 g 1 n sensorGate o 1
+MDC id 3 d i=device/accesspoint
+MC id 4 c Sensor t iotpart01.Sensor pid 1 n sensor[2]
+GC m 4 g 1 n sensorGate o 1
+MDC id 4 d i=device/accesspoint
+MC id 5 c Sensor t iotpart01.Sensor pid 1 n sensor[3]
+GC m 5 g 1 n sensorGate o 1
+MDC id 5 d i=device/accesspoint
+MC id 6 c Sensor t iotpart01.Sensor pid 1 n sensor[4]
+GC m 6 g 1 n sensorGate o 1
+MDC id 6 d i=device/accesspoint
+MC id 7 c Gateway t iotpart01.Gateway pid 1 n gateway
+GC m 7 g 0 n gatewaySensorGate o 0
+GC m 7 g 3 n User_Gate o 1
+MDC id 7 d p=351,228;i=abstract/accesspoint
+MC id 8 c User t iotpart01.User pid 1 n user
+GC m 8 g 0 n user_Gate o 0
+MDC id 8 d p=351,32;i=device/pc
+CC sm 7 sg 3 dm 8 dg 0
+CMB sm 1 tm 2 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n start pe -1
+BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n start sm 2 st 0 am 2 at 12.744067511521 pe 0
+ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n start sm 2 st 0 am 2 at 12.744067511521 pe 0
+CME
+CMB sm 1 tm 3 m initialize(0)
+CM id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n start pe -1
+BS id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n start sm 3 st 0 am 3 at 12.964223081945 pe 0
+ES id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n start sm 3 st 0 am 3 at 12.964223081945 pe 0
+CME
+CMB sm 1 tm 4 m initialize(0)
+CM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n start pe -1
+BS id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n start sm 4 st 0 am 4 at 13.575946824858 pe 0
+ES id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n start sm 4 st 0 am 4 at 13.575946824858 pe 0
+CME
+CMB sm 1 tm 5 m initialize(0)
+CM id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n start pe -1
+BS id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n start sm 5 st 0 am 5 at 14.22132872045 pe 0
+ES id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n start sm 5 st 0 am 5 at 14.22132872045 pe 0
+CME
+CMB sm 1 tm 6 m initialize(0)
+CM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n start pe -1
+BS id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n start sm 6 st 0 am 6 at 13.01381685189 pe 0
+ES id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n start sm 6 st 0 am 6 at 13.01381685189 pe 0
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+CMB sm 1 tm 8 m initialize(0)
+CME
+
+SE e 0 c -1 m ""
